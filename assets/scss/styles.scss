@@ -34,7 +34,7 @@ header {
 }
 
 .logo {
-  width: 280px;
+  width: 320px;
 
   a {
     color: $dark-grey;
@@ -44,7 +44,7 @@ header {
 }
 
 .options {
-  width: 141px;
+  width: 180px;
 
   a {
     font-size: 16px;
@@ -56,9 +56,235 @@ header {
 }
 
 .vertical-slider {
+  display: flex;
   width: 652px;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 150px;
+}
+
+.item-description {
+  width: 450px;
+  height: 200px;
+
+  .item-title {
+    color: #000000;
+    font-size: 60px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
+  p {
+    margin-top: 32px;
+    color: #92a1a5;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+  }
+}
+
+.item-photo {
+  height: 652px;
 }
 
 .promo {
-  height: 230px;
+  height: 614px;
+  display: flex;
+
+  .tap-to-fly {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 50px;
+    width: 30.7%;
+    height: 100%;
+    background-image: url("../img/tap-to-fly.jpg");
+
+    h3 {
+      color: #000000;
+      font-size: 60px;
+      font-weight: 700;
+    }
+
+    p {
+      color: #92a1a5;
+      font-size: 14px;
+      font-weight: 400;
+    }
+  }
+
+  .higher {
+    width: 69.3%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    background-image: url("../img/higher.jpg");
+    color: #ffffff;
+    font-size: 60px;
+    font-weight: 700;
+    padding-left: 50px;
+    padding-right: 50px;
+    justify-content: space-between;
+
+    h3 {
+      width: 25%;
+    }
+
+    button {
+      -webkit-transform: rotate(270deg);
+      -moz-transform: rotate(270deg);
+      -o-transform: rotate(270deg);
+      -ms-transform: rotate(270deg);
+      transform: rotate(270deg);
+      border-radius: 29px;
+      background-color: #ffffff;
+      color: #000000;
+      font-size: 18px;
+      font-weight: 700;
+      text-transform: uppercase;
+      width: 182px;
+      height: 57px;
+    }
+  }
+}
+
+.features {
+  text-align: center;
+  margin-top: 150px;
+
+  h3 {
+    color: #000000;
+    font-size: 48px;
+    font-weight: 700;
+  }
+
+  .features-img {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+
+    p {
+      color: #000000;
+      font-size: 30px;
+      font-weight: 400;
+      margin-top: 50px;
+    }
+  }
+}
+
+.new-gen-vision {
+  display: flex;
+  height: 656px;
+  margin-top: 150px;
+
+  .photo {
+    width: 50%;
+    background-image: url("../img/tablet.jpg");
+  }
+
+  .new-gen-btn {
+    color: #ffffff;
+    font-size: 92px;
+    font-weight: 400;
+    width: 50%;
+    background-image: url("../img/new_gen.jpg");
+    padding: 167px 76px 0;
+
+    span {
+      color: $red;
+    }
+
+    button {
+      border-radius: 29px;
+      border: 2px solid #3b3b3b;
+      background: transparent;
+      color: #ffffff;
+      font-size: 18px;
+      font-weight: 700;
+      text-transform: uppercase;
+      width: 182px;
+      height: 57px;
+    }
+  }
+}
+
+.new-gen-fly {
+  display: flex;
+  height: 656px;
+  margin-top: 150px;
+
+  .photo {
+    width: 50%;
+  }
+
+  .new-gen-btn {
+    color: #000000;
+    font-size: 92px;
+    font-weight: 400;
+    width: 50%;
+    padding: 167px 76px 0;
+
+    span {
+      color: $red;
+    }
+
+    button {
+      border-radius: 29px;
+      border: 2px solid #eff2f6;
+      background: transparent;
+      color: #000000;
+      font-size: 18px;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+  }
+}
+
+.start {
+  height: 1190px;
+  background-image: url("../img/sea-side.jpg");
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding-bottom: 150px;
+  margin-top: 150px;
+
+  .container {
+    text-align: center;
+  }
+
+  p {
+    color: #ffffff;
+    font-size: 92px;
+    font-weight: 700;
+    padding-bottom: 50px;
+  }
+
+  button {
+    border-radius: 29px;
+    background-color: #ffffff;
+    color: #318f76;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    width: 182px;
+    height: 57px;
+    border: none;
+  }
+}
+
+footer {
+  margin-top: 150px;
+  margin-bottom: 150px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+
+  .container {
+    text-align: center;
+
+    p {
+      margin-top: 16px;
+    }
+  }
 }
